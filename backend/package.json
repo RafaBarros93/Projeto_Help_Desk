@@ -1,0 +1,20 @@
+{
+  "name": "portal_patrimar",
+  "version": "1.0.0",
+  "description": "Template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Felipe Marconi de Moraes Andrade",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "consign": "^0.1.6",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mssql": "^4.1.0"
+  }
+}

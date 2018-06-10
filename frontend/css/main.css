@@ -1,0 +1,63 @@
+@font-face {
+     font-family: bariol Regular;
+     src: url('font/Bariol.ttf');
+}
+
+body
+{
+    background-color: #bfbfbf;
+    font-family: bariol Regular;
+}
+
+.navbar 
+{
+    background-color: rgba(255,255,255,0.7);
+}
+
+/* Controla o iframe dos dashboards */
+iframe 
+{
+    width: 100%;
+    min-height: -webkit-calc(100vh - 50px);
+    min-height: -moz-calc(100vh - 50px);
+    min-height: calc(100vh - 50px);
+    max-height: auto; 
+}
+
+table 
+{
+    font-size: 11px;
+}
+/* css da tabela calendário contábil */
+td.calendario{
+    height: 15px;
+    background-color:#F9ECB6;
+    font-size: 100%;
+    color: black;
+}
+td.dados{
+    height: 15px;
+    background-color:whitesmoke;
+    font-size: 100%;
+    color: black;
+}
+h4.calendario{
+    text-align: center;
+    margin-top: 0px;
+}
+/* css tabela cotação */
+tr.cotacao{
+   
+    background-color:#F9ECB6;
+    color: black;
+}
+td.dados2{
+    background-color:#E99595;
+    color: black;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+ 
