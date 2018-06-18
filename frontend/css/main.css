@@ -3,11 +3,11 @@
      src: url('font/Bariol.ttf');
 }
 
-body
-{
-    background-color: #bfbfbf;
+body {
+    background-color: ivory;
     font-family: bariol Regular;
 }
+
 
 .navbar 
 {

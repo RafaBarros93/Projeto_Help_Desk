@@ -113,6 +113,8 @@ function preencheTable() {
     let tabela = document.getElementById('lista_corpo');
     tabela.innerHTML = '';
     for (let i in registros) {
+        
+        
         tabela.innerHTML +=
             `
         <tr>
